@@ -13,8 +13,5 @@ dist
 .DS_Store
 Thumbs.db
 
-# Regenererbare Gemini-coalitie-cache (niet nodig voor reproduceerbare build)
-data/coalition-cache/*.json
-
 # Lokale backup (dubbel t.o.v. de datum-map die de app bundelt)
 data/stemwijzer-snapshots/bak/
