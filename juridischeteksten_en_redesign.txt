@@ -1,0 +1,393 @@
+Ja, helder — en die verduidelijking helpt. Dan zou ik de copy zo aanscherpen dat heel expliciet wordt:
+
+* van **ProDemos/StemWijzer** gebruik je alleen de **stellingen** en **partijstandpunten/toelichtingen**;
+* de **zeteldata** komt uit een **tijdelijke externe bron**;
+* jouw site is een **eigen afgeleide analyse/visualisatie**, geen officiële StemWijzer;
+* de **AI-tekst** is volledig jouw extra laag, niet van ProDemos.
+
+Ik zou het zo opschrijven.
+
+## 1. Bovenaan de pagina
+
+Ik zou de titel minder dicht op het merk zetten. Bijvoorbeeld:
+
+**Raadszetels per stelling — PoC**
+
+En daar direct onder een harde banner:
+
+> **Onafhankelijke demonstratie**
+> Deze website is een onafhankelijke proof of concept en is **niet** van, namens, in opdracht van of goedgekeurd door **ProDemos** of **StemWijzer**.
+> De gebruikte **stellingen** en **partijstandpunten** zijn gebaseerd op openbare StemWijzer-inhoud. Deze website voegt daar een **eigen visualisatie en analyse** aan toe.
+> Voor de officiële StemWijzer, toelichting op de methode en veelgestelde vragen: zie **stemwijzer.nl/faq**.
+
+## 2. Korte uitleg onder de zoekbalk of boven de stelling
+
+> Kies een gemeente, bekijk een stelling en zie hoeveel zetels in de gemeenteraad achter **ja**, **nee** of **neutraal** staan.
+> Deze site is **geen stemhulp** en **geen officiële StemWijzer-uitslag**, maar een afgeleide weergave van zetelverhoudingen per stelling.
+
+## 3. Bronregel direct onder de stelling
+
+Je huidige regel kan sterker en preciezer:
+
+> **Bronnen:** openbare StemWijzer-stellingen en partijstandpunten/toelichtingen + tijdelijke zetelbron · snapshot **25 maart 2026**
+> **Meerderheid** = meer dan de helft van de volledige raad.
+
+Of iets net formeler:
+
+> **Bronlaag:** openbare StemWijzer-stellingen en partijstandpunten/toelichtingen, gecombineerd met een tijdelijke externe zetelbron · snapshot **25 maart 2026**.
+> **Meerderheid** betekent: meer dan de helft van de volledige gemeenteraad.
+
+Ik zou hier bewust niet op de publieke site uitleggen dat NOS een anti-crawlclausule heeft. Dat is wel relevant voor je eigen afweging en later voor je mail, maar niet iets dat je prominent op de site wilt zetten.
+
+## 4. Blok “Wat je hier ziet”
+
+Dat voorkomt veel verwarring.
+
+> **Wat deze pagina laat zien**
+> Per stelling toont deze pagina hoeveel zetels in de gemeenteraad horen bij partijen die in de gebruikte dataset op die stelling **ja**, **nee** of **neutraal** staan.
+> Het doel is om zichtbaar te maken of er op basis van die standpunten een **zetelmeerderheid** achter een positie lijkt te staan.
+
+## 5. Blok “Wat deze pagina niet is”
+
+Deze is belangrijker dan bijna alles hierboven.
+
+> **Wat deze pagina niet is**
+> Deze website is **geen officiële StemWijzer**, **geen vervanging van StemWijzer** en **geen kiesadvies**.
+> De officiële StemWijzer vergelijkt de antwoorden van een gebruiker met partijstandpunten. Deze website doet iets anders: zij maakt een **afgeleide analyse** van zetelverhoudingen per stelling.
+> Aan deze pagina kunnen **geen rechten** worden ontleend.
+
+## 6. Blok “Bronnen en rechten”
+
+Dit zou ik op de plek zetten waar je nu “Bronnen en beperkingen” hebt.
+
+> **Bronnen en rechten**
+> De op deze pagina gebruikte **stellingen** en **partijstandpunten/toelichtingen** zijn gebaseerd op openbare StemWijzer-inhoud. De redactionele formulering en selectie van stellingen, en de verwerking van partijstandpunten binnen StemWijzer, behoren tot de officiële StemWijzer-omgeving van **ProDemos**.
+> Deze website gebruikt die openbare informatie uitsluitend als basis voor een **eigen afgeleide visualisatie en analyse** van zetelverhoudingen.
+> **StemWijzer** is een merk van ProDemos. Deze website is niet gelieerd aan, gesponsord door of goedgekeurd door ProDemos.
+> Voor de officiële context, methode en veelgestelde vragen: zie **stemwijzer.nl/faq**.
+
+Als je een iets stevigere versie wilt:
+
+> Op de officiële StemWijzer-inhoud en merkaanduiding rusten rechten. Deze proof of concept is nadrukkelijk bedoeld als **onofficiële demonstratie** en niet als officiële herpublicatie of vervanging van StemWijzer.
+
+## 7. Blok “Beperkingen van de uitkomst”
+
+Je huidige tekst is al goed; ik zou hem iets juridischer en inhoudelijker maken:
+
+> **Beperkingen van deze weergave**
+> Deze pagina laat zien welke partijen op basis van de gebruikte dataset samen genoeg zetels hebben voor **ja**, **nee** of **neutraal** bij een stelling.
+> Zij laat **niet** zien:
+>
+> * hoe partijen later in de raad daadwerkelijk hebben gestemd;
+> * welke moties, amendementen of coalitieafspraken later zijn gemaakt;
+> * wat juridisch, financieel of bestuurlijk uitvoerbaar is;
+> * wat inmiddels al beleid is geworden of juist is verlaten.
+>   Een zetelmeerderheid op deze pagina is daarom **geen voorspelling**, **geen bestuurlijke zekerheid** en **geen garantie op uitvoering**.
+
+## 8. Blok over partijstandpunten
+
+Gezien jouw verduidelijking zou ik dit expliciet maken:
+
+> **Over de partijstandpunten**
+> De hier gebruikte partijposities zijn de in de gebruikte StemWijzer-bron opgenomen standpunten en toelichtingen bij stellingen.
+> Deze posities moeten niet automatisch worden gelezen als een-op-een equivalent van later **stemgedrag**, **coalitiegedrag** of **feitelijke beleidsuitvoering**.
+
+## 9. AI-waarschuwing
+
+Je huidige AI-blok is inhoudelijk goed, maar moet veel harder losgetrokken worden van ProDemos.
+
+> **Experimentele AI-lezing van toelichtingen**
+> De onderstaande analyse is **niet afkomstig van ProDemos of StemWijzer**.
+> Het gaat om een **automatisch gegenereerde interpretatie** van openbare partijtoelichtingen en zetelgegevens zoals op deze website verwerkt.
+> Deze tekst is **niet redactioneel gecontroleerd door ProDemos**, kan onvolledig of onjuist zijn en mag **niet** worden gelezen als officiële duiding, journalistieke reconstructie, bestuurlijke analyse of feitelijke voorspelling.
+> Gebruik deze tekst uitsluitend als **verkennende interpretatie** en controleer altijd zelf de oorspronkelijke partijtoelichtingen en andere bronnen.
+> Aan deze analyse kunnen **geen rechten** worden ontleend.
+
+En boven de gegenereerde analyse zelf:
+
+> **Nieuw gegenereerde, niet-officiële interpretatie** · 26-03-2026, 16:07
+
+## 10. Korte FAQ-samenvatting op jouw site
+
+Ja, dit zou ik doen, maar compact en duidelijk als samenvatting van de officiële context.
+
+> **Officiële context van StemWijzer**
+> StemWijzer is een stemhulp van **ProDemos**. In de officiële StemWijzer worden stellingen redactioneel opgesteld, worden partijstandpunten uitgevraagd en gecontroleerd, en wordt een persoonlijke uitslag berekend op basis van overeenkomsten tussen gebruiker en partijen.
+> Deze website doet dat niet. Zij gebruikt openbare stellingen en partijstandpunten als input voor een **eigen zetelanalyse per stelling**.
+> Lees de volledige officiële uitleg op **stemwijzer.nl/faq**.
+
+## 11. Privacyblok
+
+Heel belangrijk dat je hier niet impliciet op hun privacy meeliftt.
+
+> **Privacy van deze website**
+> Deze website heeft een **eigen** technische en privacy-inrichting en valt **niet** onder het privacystatement van StemWijzer of ProDemos.
+> [Vul hier concreet en eerlijk in wat je doet: wel/geen cookies, wel/geen analytics, wel/geen serverlogs, bewaartermijnen, contactadres.]
+> Voor de privacy-informatie van de officiële StemWijzer zie: **stemwijzer.nl**.
+
+Als je nu nog geen privacytekst hebt, zou ik minimaal tijdelijk dit zetten:
+
+> Deze website bevindt zich in een proof-of-conceptfase. Totdat een volledige privacyverklaring is geplaatst, moet ervan worden uitgegaan dat normale technische serverlogs kunnen worden verwerkt voor beveiliging en foutopsporing.
+
+Alleen zetten als dat ook echt klopt.
+
+## 12. Footertekst
+
+Ik zou in de footer iets zetten als:
+
+> Deze website is een onafhankelijke proof of concept.
+> Niet van, namens of goedgekeurd door **ProDemos** of **StemWijzer**.
+> Gebruikt: openbare StemWijzer-stellingen en partijstandpunten/toelichtingen + tijdelijke externe zetelbron.
+> Voor de officiële StemWijzer en FAQ: **stemwijzer.nl** / **stemwijzer.nl/faq**
+
+## 13. Tekst die ik juist níet publiek zou opnemen
+
+Deze dingen zou ik niet op de site zetten:
+
+* dat de NOS-bron een “big no no” is;
+* dat je uit “noodzaak” hebt gecrawld;
+* dat je nog toestemming moet vragen omdat dat op zichzelf onrustig kan ogen voor gewone bezoekers;
+* dat je later misschien extra niet-publieke data van ProDemos wilt toevoegen.
+
+Dat hoort eerder in je correspondentie met ProDemos dan op de publiekswebsite.
+
+## 14. Mijn aanbevolen complete versie voor jouw huidige “Bronnen en beperkingen”
+
+Als je één kant-en-klaar blok wilt om meteen te plakken, zou ik deze nemen:
+
+> **Bronnen en beperkingen**
+> Deze website is een **onafhankelijke proof of concept** en is **niet** van, namens, in opdracht van of goedgekeurd door **ProDemos** of **StemWijzer**.
+>
+> De gebruikte **stellingen** en **partijstandpunten/toelichtingen** zijn gebaseerd op openbare StemWijzer-inhoud. De getoonde **zetelaantallen** zijn gebaseerd op een tijdelijke externe zetelbron in een snapshot van **25 maart 2026**.
+>
+> Deze pagina laat zien welke partijposities samen genoeg zetels hebben voor **ja**, **nee** of **neutraal** bij een stelling. Zij laat **niet** zien hoe partijen later daadwerkelijk in de raad hebben gestemd, welke moties of coalitieafspraken zijn gemaakt, of wat uiteindelijk is uitgevoerd.
+>
+> Deze website is **geen officiële StemWijzer**, **geen stemhulp**, **geen kiesadvies** en **geen voorspelling van beleid of stemgedrag**. Aan de inhoud kunnen **geen rechten** worden ontleend.
+>
+> **StemWijzer** is een merk van ProDemos. Voor de officiële StemWijzer, methode en veelgestelde vragen: zie **stemwijzer.nl/faq**.
+
+## 15. Mijn aanbevolen complete versie voor jouw AI-blok
+
+> **Experimentele AI-lezing van de toelichtingen**
+> Let op: onderstaande tekst is **niet afkomstig van ProDemos of StemWijzer**. Het is een **automatisch gegenereerde interpretatie** van openbare partijtoelichtingen en zetelgegevens zoals op deze website verwerkt.
+>
+> Deze analyse is **niet redactioneel gecontroleerd door ProDemos**, kan onvolledig of onjuist zijn en mag niet worden gezien als officiële duiding, feitelijke voorspelling of bestuurlijke zekerheid.
+>
+> Gebruik deze analyse uitsluitend als **verkennende interpretatie** en controleer altijd zelf de oorspronkelijke partijtoelichtingen en andere bronnen. Aan deze analyse kunnen **geen rechten** worden ontleend.
+
+Mijn echte advies in één zin: maak de site qua copy minder “alternatieve StemWijzer” en meer “onofficiële afgeleide zetelanalyse op basis van openbare StemWijzer-inhoud”.
+
+Ja — je moet dit vooral oplossen met **hiërarchie en progressive disclosure**, niet met “alles meteen zichtbaar”. In jouw huidige layout past de kern al mooi in één viewport. Dat is waardevol, dus die moet je beschermen.
+
+Mijn hoofdadvies: maak onderscheid tussen drie niveaus informatie.
+
+**Altijd zichtbaar**
+
+* dit is een **PoC / niet-officiële** site
+* wat de gebruiker hier ziet
+* link naar officiële FAQ
+
+**Met 1 klik bereikbaar**
+
+* bronnen en rechten
+* privacy
+* methode / beperkingen
+
+**Standaard verborgen**
+
+* uitgebreide AI-caveat
+* langere juridische tekst
+* samenvatting van officiële FAQ
+
+Dus: niet overal paragrafen neerzetten, maar werken met **1 compacte banner + chips + accordions/drawers**.
+
+## Wat ik in jouw huidige scherm zou veranderen
+
+### 1. Maak van de bovenkant één compacte “status strip”
+
+Nu heb je bovenaan titel + uitlegzin + bronzin. Dat kan compacter en sterker.
+
+Ik zou daar dit van maken:
+
+**Titel**
+`Raadszetels per stelling`
+
+Daarnaast of eronder kleine badges:
+`PoC` · `niet-officieel` · `FAQ` · `Bronnen & rechten`
+
+En dan één korte zin:
+
+> Onafhankelijke demonstratie op basis van openbare StemWijzer-stellingen en partijstandpunten.
+
+Dus niet meteen alle disclaimers uitschrijven. Alleen de essentie.
+
+### 2. Eén zichtbare disclaimerbanner, niet vijf losse teksten
+
+Direct onder die korte intro een smalle, subtiele banner:
+
+> Niet van, namens of goedgekeurd door ProDemos of StemWijzer. Meer info bij **Bronnen & rechten**.
+
+Belangrijk: maak dit visueel duidelijk, maar niet schreeuwerig.
+Dus liever een **amber/oker border card** of een subtiele infostrip dan een groot rood alarmblok.
+
+### 3. Vervang lange bronzinnen door chips
+
+Jouw regel:
+
+> Bronnen: StemWijzer-standpunten + NOS-zetels · snapshot 25 maart 2026 · Meerderheid = ...
+
+is inhoudelijk prima, maar visueel zwaar.
+
+Maak daarvan kleine chips of labels:
+
+* `Openbare StemWijzer-inhoud`
+* `tijdelijke zetelbron`
+* `snapshot 25-03-2026`
+* `? hoe berekend`
+
+En laat `? hoe berekend` een tooltip of klein popover openen:
+
+> Meerderheid = meer dan de helft van de volledige raad.
+
+Dat leest veel lichter.
+
+## Wat ik met de rest van de pagina zou doen
+
+### 4. Laat “Bronnen en beperkingen” dicht staan, maar goed ontworpen
+
+Dat blok onderaan is precies de juiste plek. Alleen: maak het een nette accordiongroep met 4 items:
+
+* **Wat is dit?**
+* **Bronnen en rechten**
+* **Beperkingen**
+* **Privacy**
+
+Alles standaard dicht, behalve misschien de eerste op desktop half-open met 2 regels preview.
+
+Bijvoorbeeld:
+`Bronnen en rechten`
+*Gebruikte stellingen en partijstandpunten zijn gebaseerd op openbare StemWijzer-inhoud. Deze site is niet officieel...*
+
+Dus niet pas tekst tonen ná openklappen; toon alvast 1 samenvattende regel.
+
+### 5. Zet de AI-analyse in een eigen kaart of tab
+
+Die AI-sectie hoort visueel **niet** in dezelfde informatielaag als de zetelgrafiek. Anders lijkt het alsof het gewoon onderdeel is van de hoofdoutput.
+
+Ik zou één van deze twee doen:
+
+**Optie A — aparte accordion**
+`Experimentele AI-lezing van toelichtingen`
+met een badge `niet-officieel`
+
+**Optie B — aparte tab**
+
+* `Zetelverdeling`
+* `Partijtoelichtingen`
+* `AI-lezing (experimenteel)`
+
+Voor jouw pagina zou ik **tab of accordion** beter vinden dan direct onder de hoofdcontent. De AI is extra, niet primair.
+
+### 6. Beperk het uitklappen van partijtoelichtingen
+
+Nu kunnen veel partijstandpunten tegelijk open en duwen ze alles naar beneden. Dat voelt snel “zwaar”.
+
+Beter:
+
+* standaard alleen partijnamen + zetels tonen
+* maximaal **één toelichting per kolom tegelijk open**
+* of een **detailpaneel rechts/onder**: klik op partij en de toelichting verschijnt in één vaste kaart
+
+Dat tweede is mooier. Dan blijft de lijst compact.
+
+Bijvoorbeeld:
+links een lijst met partijen, rechts een kaart:
+**CDA · 2 zetels · Nee**
+[toelichting]
+
+Dan groeit de pagina bijna niet in hoogte.
+
+## Een concrete eerste viewport die goed zou werken
+
+Ik zou jouw first screen ongeveer zo opbouwen:
+
+**Rij 1**
+`Raadszetels per stelling` + badges `PoC` `niet-officieel`
+
+**Rij 2**
+Korte omschrijving van 1 zin
+
+**Rij 3**
+Smalle banner:
+
+> Niet van, namens of goedgekeurd door ProDemos of StemWijzer. [FAQ] [Bronnen & rechten]
+
+**Rij 4**
+Gemeente-selector links
+kleine stat card rechts: `39 raadszetels`
+
+**Rij 5**
+Stelling-selector
+
+**Rij 6**
+Stellingtitel
+
+**Rij 7**
+Hoofdvisualisatie
+
+**Rij 8**
+Drie compacte kolommen: Ja / Neutraal / Nee
+
+**Rij 9**
+Accordionbalk:
+`Wat is dit?` `Bronnen & rechten` `Beperkingen` `AI-lezing`
+
+Dan houd je de kern intact en voelt de page nog steeds “één scherm”.
+
+## Wat je vooral níet moet doen
+
+Niet doen:
+
+* onder de titel drie volle paragrafen
+* onder de grafiek nog eens een groot juridisch blok
+* boven de AI nóg een tweede volledige waarschuwing
+* ieder onderdeel voorzien van eigen disclaimertekst
+
+Dat maakt het alsof de site zelf niet vertrouwt op zijn eigen bestaan.
+
+Beter is:
+
+* **één duidelijke hoofdwaarschuwing**
+* **één compacte bronregel**
+* **één nette accordionsectie voor de rest**
+
+## Visuele stijl die hierbij past
+
+Je huidige dark UI is best strak. Daar zou ik op voortbouwen:
+
+* normale content: donker + rustig
+* belangrijke status: **1 accentkleur**
+* juridische/context-info: muted cards, dunne border
+* AI: apart label zoals `experimenteel`
+* officiële links: kleine external-link stijl
+
+Dus niet alles dezelfde urgentie geven. Juridisch belangrijk betekent niet automatisch visueel dominant.
+
+## Mijn voorkeursoplossing voor jouw site
+
+Als ik het tot één concreet advies terugbreng:
+
+**Hou bovenaan alleen dit zichtbaar:**
+
+1. titel
+2. één zin uitleg
+3. één banner “niet-officieel”
+4. twee links: `FAQ` en `Bronnen & rechten`
+
+**Zet alle rest in een compacte accordion onder de hoofdvisualisatie.**
+**Zet AI in een apart inklapbaar blok of tab.**
+**Laat partijtoelichtingen in een vast detailpaneel zien in plaats van eindeloos uitklappen.**
+
+Dat geeft je de disclaimers die je nodig hebt, zonder dat het een muur van tekst wordt.
+
+Ik kan hierna een **concrete wireframe-indeling in tekst** voor je uitschrijven, regel voor regel, precies passend op jouw huidige scherm.

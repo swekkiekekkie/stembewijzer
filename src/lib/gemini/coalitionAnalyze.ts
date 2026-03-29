@@ -1,8 +1,9 @@
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, type GenerateContentConfig } from "@google/genai";
 
-import { DEFAULT_GEMINI_MODEL } from "./client";
+import { DEFAULT_GEMINI_MODEL, GEMINI_COALITION_PRIMARY_MODEL } from "./client";
 import { buildCoalitionPrompt } from "./coalitionPrompt";
 import type { CoalitionRequestBody, CoalitionZetelAggregaten } from "./coalitionTypes";
+import { isGeminiRateLimitError } from "./geminiRateLimit";
 
 function parseNonNegInt(v: unknown): number {
   const n = Math.floor(Number(v));
@@ -100,17 +101,36 @@ export function validateCoalitionBody(body: unknown): CoalitionRequestBody {
   };
 }
 
+const coalitionGenerateConfig: GenerateContentConfig = {
+  tools: [{ googleSearch: {} }],
+};
+
+async function generateCoalitionText(
+  ai: GoogleGenAI,
+  model: string,
+  prompt: string,
+): Promise<string> {
+  const response = await ai.models.generateContent({
+    model,
+    contents: prompt,
+    config: coalitionGenerateConfig,
+  });
+  const text = response.text?.trim();
+  if (!text) throw new Error("Geen tekst in Gemini-response.");
+  return text;
+}
+
 export async function runCoalitionAnalysis(
   apiKey: string,
   body: CoalitionRequestBody,
 ): Promise<string> {
   const ai = new GoogleGenAI({ apiKey: apiKey.trim() });
   const prompt = buildCoalitionPrompt(body);
-  const response = await ai.models.generateContent({
-    model: DEFAULT_GEMINI_MODEL,
-    contents: prompt,
-  });
-  const text = response.text?.trim();
-  if (!text) throw new Error("Geen tekst in Gemini-response.");
-  return text;
+
+  try {
+    return await generateCoalitionText(ai, GEMINI_COALITION_PRIMARY_MODEL, prompt);
+  } catch (e) {
+    if (!isGeminiRateLimitError(e)) throw e;
+    return await generateCoalitionText(ai, DEFAULT_GEMINI_MODEL, prompt);
+  }
 }

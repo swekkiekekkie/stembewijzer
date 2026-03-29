@@ -1,0 +1,17 @@
+{
+  "baseUrl": "https://gr2026-data.stemwijzer.nl",
+  "pathTemplate": "/{gmCode}/data.json",
+  "delayMs": 4000,
+  "jitterMs": 400,
+  "sequential": true,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+  "stemwijzerPageOrigin": "https://gr2026.stemwijzer.nl",
+  "startedAt": "2026-03-25T00:32:10.259Z",
+  "finishedAt": "2026-03-25T00:50:44.078Z",
+  "aborted": false,
+  "abortReason": null,
+  "totalRequests": 258,
+  "okCount": 246,
+  "notFoundCount": 12,
+  "errorCount": 0
+}

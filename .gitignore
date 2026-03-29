@@ -1,0 +1,20 @@
+# Dependencies & build
+node_modules
+dist
+.vite
+
+# Local env (geheimen — gebruik .env.example als sjabloon)
+.env
+.env.local
+.env.*.local
+*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Regenererbare Gemini-coalitie-cache (niet nodig voor reproduceerbare build)
+data/coalition-cache/*.json
+
+# Lokale backup (dubbel t.o.v. de datum-map die de app bundelt)
+data/stemwijzer-snapshots/bak/

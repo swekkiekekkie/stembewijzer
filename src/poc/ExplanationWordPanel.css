@@ -1,0 +1,179 @@
+.word-panel {
+  margin-top: 1.25rem;
+  padding: 0.95rem 1rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #2f3640;
+  background: #161b22;
+}
+
+.word-panel-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.word-panel-title {
+  margin: 0 0 0.25rem;
+  font-size: 0.98rem;
+  font-weight: 650;
+  color: #e4e7ec;
+}
+
+.word-panel-copy {
+  margin: 0;
+  max-width: 54ch;
+  font-size: 0.84rem;
+  line-height: 1.5;
+  color: #96a1af;
+}
+
+.word-panel-meta {
+  display: grid;
+  gap: 0.15rem;
+  min-width: 15rem;
+  font-size: 0.78rem;
+  color: #9ca6b3;
+  text-align: right;
+}
+
+.word-panel-meta strong {
+  color: #e8eaed;
+  font-size: 0.88rem;
+}
+
+.word-panel-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.word-panel-field {
+  display: grid;
+  gap: 0.3rem;
+}
+
+.word-panel-field span {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #7d8694;
+}
+
+.word-panel-field select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.55rem 0.65rem;
+  border-radius: 6px;
+  border: 1px solid #2a3038;
+  background: #1a1e24;
+  color: #e8eaed;
+  font-size: 0.9rem;
+}
+
+.word-panel-hidden {
+  margin-top: 0.85rem;
+}
+
+.word-panel-hidden-label {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: #8c97a5;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.word-panel-hidden-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.word-panel-chip,
+.word-panel-reset,
+.word-panel-hide-btn {
+  border: 1px solid #37404d;
+  background: #1b2028;
+  color: #d8dde4;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.word-panel-chip {
+  padding: 0.28rem 0.55rem;
+  font-size: 0.82rem;
+}
+
+.word-panel-reset {
+  padding: 0.28rem 0.55rem;
+  font-size: 0.82rem;
+}
+
+.word-panel-table-wrap {
+  margin-top: 0.95rem;
+  overflow-x: auto;
+}
+
+.word-panel-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+
+.word-panel-table th,
+.word-panel-table td {
+  padding: 0.5rem 0.45rem;
+  border-bottom: 1px solid #252b34;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.word-panel-table th {
+  font-size: 0.75rem;
+  font-weight: 650;
+  color: #7d8694;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.word-panel-word {
+  font-weight: 600;
+  color: #e8eaed;
+}
+
+.word-panel-actions {
+  text-align: right;
+}
+
+.word-panel-hide-btn {
+  padding: 0.28rem 0.55rem;
+  font-size: 0.8rem;
+}
+
+.word-panel-empty {
+  margin: 0.95rem 0 0;
+  font-size: 0.88rem;
+  line-height: 1.5;
+  color: #9aa3ad;
+}
+
+@media (max-width: 42rem) {
+  .word-panel-controls {
+    grid-template-columns: 1fr;
+  }
+
+  .word-panel-meta {
+    min-width: 0;
+    text-align: left;
+  }
+
+  .word-panel-table {
+    min-width: 32rem;
+  }
+}

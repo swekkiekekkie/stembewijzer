@@ -1,0 +1,41 @@
+{
+  "name": "stembewijzer",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "snapshot:stemwijzer": "tsx src/scripts/stemwijzer-snapshot/run.ts",
+    "snapshot:validate": "tsx src/scripts/stemwijzer-snapshot/validate.ts",
+    "data:gemeente-dataset": "tsx src/scripts/build-gemeente-dataset.ts",
+    "data:explanation-word-stats": "tsx src/scripts/build-explanation-word-stats.ts",
+    "snapshot:nos-voteflow": "tsx src/scripts/nos-voteflow-snapshot/run.ts",
+    "data:compare-parties": "tsx src/scripts/compare-parties-stemwijzer-nos.ts",
+    "data:export-strong-tuples": "tsx src/scripts/export-strong-tuples-not-perfect.ts",
+    "data:validate-explanations": "tsx src/scripts/validate-stemwijzer-explanations.ts",
+    "gemini:ping": "tsx --env-file=.env src/scripts/gemini-ping.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.46.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.1.0",
+    "tsx": "^4.19.0",
+    "typescript": "~5.7.0",
+    "vite": "^6.0.0",
+    "vitest": "^3.2.4"
+  }
+}

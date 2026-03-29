@@ -1,0 +1,16 @@
+{
+  "baseUrl": "https://voteflow.api.nos.nl",
+  "electionPath": "GR26",
+  "shuffled": true,
+  "delayMs": 12000,
+  "jitterMs": 6000,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:149.0) Gecko/20100101 Firefox/149.0",
+  "startedAt": "2026-03-25T10:36:36.560Z",
+  "finishedAt": "2026-03-25T11:40:37.094Z",
+  "aborted": false,
+  "abortReason": null,
+  "totalRequests": 258,
+  "okCount": 258,
+  "notFoundCount": 0,
+  "errorCount": 0
+}
